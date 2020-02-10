@@ -1,11 +1,50 @@
-#backdrop {
-    background: url(assets/bgbanner.jpg);
-     background-position: left top;
 
-    padding: 0px;
-    width: 1000px;
-    height: 238px;
-    }
+#headerBlock{
+position:relative;
+	display: flex;
+	 align-items: center;
+background-color: #bd1819;
+	 width: 850px;
+ 	 height: 150px;
+	top: 5px;
+	left: 0px;
+	margin: auto;
+	color:#ffffff;
+font-size:45px;
+}
+
+
+#mainBlock{
+position:relative;
+	display: block;
+background-color: #444444;
+	 width: 100%;
+ 	 height: 100%;
+	top: 0px;
+	left: 0px;
+	margin: auto;
+}
+ 
+#middleBlock{
+position:relative;
+	display: block;
+background-color: #ffffff;
+	 width: 900px;
+ 	 height: 100%;
+	top: 0px;
+	left: 0px;
+	margin: auto;
+	border-radius: 0px 0px 25px 25px ;
+}
+
+#straplineText{
+	color:#000000;
+font-family: century;
+font-size:36px;
+font-weight:none;
+
+
+}
  
  
 #rcornerstop {
@@ -15,17 +54,38 @@
     padding: 5px;
     width: 930px;
     height: 80px;
-    position: 100px 0px 0px 0px
+    position: 0px 0px 0px 0px
 }
 
+ #rcorners1 {
+    border-radius: 0px 0px 0px 0px;
+    border: 4px solid #bd1819;
+	background: #e1d2a9;
+    padding: 5px;
+    width: 832px;
+    height: 100%;
+	margin: auto;
+	 align-items: flex-start;
+}
+
+ #rcorners1old {
+    border-radius: 25px 25px 0px 0px;
+    border: 2px solid #bd1819;
+	background: #ffffff;
+    padding: 20px;
+    width: 800px;
+    height: 100%;
+	margin: auto;
+}
 
  #rcorners2 {
-    border-radius: 0px 0px 15px 15px ;
-    border: 2px solid #bd1819;
+    border-radius: 0px 0px 25px 25px ;
+    border: 4px solid #bd1819;
     background: #bd1819;
-    padding: 0px;
-    width: 940px;
-    height: 120px;
+    padding: 20px;
+    width: 800px;
+    height: 40px;
+	margin: auto;
 }
 
 #footerText   {
@@ -52,19 +112,19 @@ aside {
     margin-bottom: 70px;
     margin-top: 0px;
     height:110px;
-    width:240px
+    width:220px
 }
-
+ 
 #aside-header {
 color:#ffffff;
 font-size:18px;
 
     height: 30px;
-
+width:220px;
     display: table-cell;
         /* or to vert-centre: line-height: 30px; */
     background-color: #bd1819;
-    width: 240px
+    
     padding:5px 0px 0px 0px;
     vertical-align: middle;
 }
@@ -87,4 +147,64 @@ font-size:18px;
 p{    font-family: century, palatino;
 font-size:15px;
 font-weight:bolrd;
+}
+
+tr.tableHeader {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #e1d2a9;
+	background: #ffffff;
+	font-size:15px;
+font-weight:bold;
+text-align:center;
+color: #ecbbb7;
+}
+
+table.cellHighlight tr:nth-child(even){
+	background-color: #cdcdcd;
+	font-family: sans-serif;
+	color: 4d5445;
+	} 
+table.cellHighlight tr:nth-child(odd) {
+	background-color: #ffffff;
+	font-family: sans-serif;
+	color: 837163;
+	}
+ 
+	
+
+td.boldTitle {
+ 	font-size:18px;
+font-weight:bold;
+}
+
+tr.priceRow{
+	border-top: 0;
+	border-left: 0;
+	background: ;
+	font-size:15px;
+font-weight: ;
+text-align:center;
+color: ;
+}
+ 
+
+td.topHeader {
+	background: #ffffff;
+	font-size:25px;
+font-weight:bold;
+text-align:center;
+color: #638183;
+}
+
+td.priceTable {
+	text-align:center;
+}
+
+
+svg {
+	position:relative;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
 }
